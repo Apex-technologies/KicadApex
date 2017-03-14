@@ -1,0 +1,342 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP -2V5
+K POWER, PWR
+$ENDCMP
+#
+$CMP 2.048V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 2.098V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 24XX256
+D 256K I2C EEPROM
+$ENDCMP
+#
+$CMP 4.096V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 7402
+D Single OR 2 Inputs
+K TTL OR
+$ENDCMP
+#
+$CMP 74HC02
+D Quad Nor2
+K HCMOS Nor2
+$ENDCMP
+#
+$CMP 74HCT02
+D Quad Nor2
+K HCTMOS Nor2
+$ENDCMP
+#
+$CMP 74HCT2G32
+D Dual OR 2 Inputs
+K TTL OR
+$ENDCMP
+#
+$CMP 74HCT32
+D Single OR 2 Inputs
+K TTL OR
+$ENDCMP
+#
+$CMP 74LS28
+D Quad Buffer Nor2
+K TTL Nor2 Buffer
+$ENDCMP
+#
+$CMP 74LVC1
+D Single OR Gate
+$ENDCMP
+#
+$CMP 74XX14
+D 6 x Schmitt Trigger Inverser
+$ENDCMP
+#
+$CMP 74XX74
+D Dual D Flip-Flop
+$ENDCMP
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP A1454
+D Magnetic Sensor
+$ENDCMP
+#
+$CMP AD5272
+D Potentiometer 20-50-100 kOhms 10-bits I2C
+$ENDCMP
+#
+$CMP AD603
+D Variable Gain Amplifier [-11dB;+31dB] 90 MHz
+$ENDCMP
+#
+$CMP AD8304
+D 160dB Logarithmic Converter
+$ENDCMP
+#
+$CMP AD8307
+D 90 dB Logarithmic Amplifier [DC - 500 MHz]
+$ENDCMP
+#
+$CMP AD8310
+D 90 dB Logarithmic Amplifier [DC - 440 MHz]
+$ENDCMP
+#
+$CMP ADE-2+
+D RF Mixer [5MHz - 1GHz]
+$ENDCMP
+#
+$CMP ADG658
+D Analog Mux DMux Octal
+$ENDCMP
+#
+$CMP ADL5315
+D Current Mirror 1:1 [100pA - 10 mA]
+$ENDCMP
+#
+$CMP ADN8831
+D TEC Controler
+$ENDCMP
+#
+$CMP ADP-2-10+
+D RF Splitter 50-50 [5MHz - 1GHz]
+$ENDCMP
+#
+$CMP ADS7828
+D ADC Octal I2C
+$ENDCMP
+#
+$CMP APX809
+D RESET Signal for µP
+$ENDCMP
+#
+$CMP BC847BS
+D Dual paired NPN transistors
+$ENDCMP
+#
+$CMP BUF602
+D RF Buffer
+$ENDCMP
+#
+$CMP CY7C68013-56
+D Cypress FX2LP - 56 pins
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP DAC8574
+D DAC Quad I2C
+$ENDCMP
+#
+$CMP FDS8958A
+D Dual MOS-FET
+$ENDCMP
+#
+$CMP Fitel_TLS
+D Fitel TLS Module
+$ENDCMP
+#
+$CMP GALI74
+D RF Amplifier (DC - 1GHz)
+$ENDCMP
+#
+$CMP H11FXM
+D Optocoupleur with FET
+$ENDCMP
+#
+$CMP HMC241
+D Switch RF 1:4 (DC - 4GHz)
+$ENDCMP
+#
+$CMP KA79MXX
+D Negative Voltage Regulator
+$ENDCMP
+#
+$CMP LAT-X+
+D RF Attenuator
+$ENDCMP
+#
+$CMP LD1117
+D Positive Voltage Regulator
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LT1007
+D Op amp low noise
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP LT1462
+D Dual Picoampere Bias Current OpAmp
+$ENDCMP
+#
+$CMP LT1465
+D Quad OpAmp with 0.2 pA bias Current
+$ENDCMP
+#
+$CMP LT1763
+D Voltage regulator
+$ENDCMP
+#
+$CMP LT1803S5
+D Single Op Amp 400 MHz
+$ENDCMP
+#
+$CMP LTC6268
+D Very Low Input Bias Current OpAmp
+$ENDCMP
+#
+$CMP MAX110XX
+D Quad ADC 14Bits 250kSps
+$ENDCMP
+#
+$CMP MAX1157
+D ADC 135kSps 14 bits
+$ENDCMP
+#
+$CMP MAX4638
+D Swicth 1x8
+$ENDCMP
+#
+$CMP MCP3321
+D ADC 1 Channel 23 kSps
+$ENDCMP
+#
+$CMP MXC6255XU
+D 2Axis I2C Accelerometer
+$ENDCMP
+#
+$CMP NC7SVU04
+D Single Inverser
+$ENDCMP
+#
+$CMP NC7SZ175
+D Single D Flip-Flop
+$ENDCMP
+#
+$CMP NCX1117
+D Positive Voltage Regulator
+$ENDCMP
+#
+$CMP PCF8575
+D 16 Bits Expander I2C
+$ENDCMP
+#
+$CMP Peltier
+D Petier Module
+$ENDCMP
+#
+$CMP PhotoDiode
+D Photodiode without Ground case
+$ENDCMP
+#
+$CMP PhotoDiode_GND
+D Photodiode with Ground case
+$ENDCMP
+#
+$CMP Polarimeter
+D Optical Fiber Polarimeter
+$ENDCMP
+#
+$CMP Pump
+D Pump Module
+$ENDCMP
+#
+$CMP R4_COMMON
+D 4 resistors Pack with common point
+K R DEV
+$ENDCMP
+#
+$CMP REF
+K POWER, PWR
+$ENDCMP
+#
+$CMP REF30XX
+D Voltage Reference [1.25V - 4.098V]
+$ENDCMP
+#
+$CMP RELAY_NoLatching
+D No-Latching Relay
+$ENDCMP
+#
+$CMP RHP-X+
+D RF High-Pass Filter
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP Rotary_Switch
+D Rotary Switch 4 Positions
+$ENDCMP
+#
+$CMP Rotary_Switch_12
+D Rotary Switch 12 Positions
+$ENDCMP
+#
+$CMP SC1592
+D Adjustable Voltage Regulator
+$ENDCMP
+#
+$CMP SYPS-2-252+
+D RF Splitter 50-50 [5MHz - 1GHz]
+$ENDCMP
+#
+$CMP TCN75A
+D I²C Temperature Sensor
+$ENDCMP
+#
+$CMP TPS72301
+D -2V5 / 200mA Voltage Regulator
+$ENDCMP
+#
+$CMP TPS73025
+D +2V5 / 200mA Voltage Regulator
+$ENDCMP
+#
+$CMP TPS7A33
+D Negative Voltage Regulator (Adjustable)
+$ENDCMP
+#
+$CMP USB
+D USB Connector
+$ENDCMP
+#
+#End Doc Library

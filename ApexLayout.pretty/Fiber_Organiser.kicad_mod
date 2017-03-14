@@ -1,0 +1,14 @@
+(module Fiber_Organiser (layer F.Cu) (tedit 560287C3)
+  (fp_text reference Fiber_Organiser (at 16 1) (layer Eco1.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at -1 -15 90) (layer Eco1.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 4 0) (end 30 0) (layer F.SilkS) (width 0.5))
+  (fp_line (start 0 -4) (end 0 -30) (layer F.SilkS) (width 0.5))
+  (fp_arc (start 0 0) (end 0 -4) (angle 90) (layer F.SilkS) (width 0.5))
+  (fp_arc (start 5 -5) (end 5 -20) (angle 90) (layer F.SilkS) (width 3))
+  (fp_line (start 5 -5) (end 15 -15) (layer F.SilkS) (width 3))
+  (fp_arc (start 0 0) (end 0 -30) (angle 90) (layer F.SilkS) (width 0.5))
+)
