@@ -315,6 +315,10 @@ $CMP SC1592
 D Adjustable Voltage Regulator
 $ENDCMP
 #
+$CMP SPST
+D SPST
+$ENDCMP
+#
 $CMP SYPS-2-252+
 D RF Splitter 50-50 [5MHz - 1GHz]
 $ENDCMP
