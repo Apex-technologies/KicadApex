@@ -25,6 +25,10 @@ D Single OR 2 Inputs
 K TTL OR
 $ENDCMP
 #
+$CMP 74ABT108
+F C:/Users/Electronique/Documents/Documentation/Datasheets/Logic/74ABT08_AND_Quad.pdf
+$ENDCMP
+#
 $CMP 74HC02
 D Quad Nor2
 K HCMOS Nor2
@@ -166,6 +170,10 @@ $CMP DIL-8
 D Switch DIL-8
 $ENDCMP
 #
+$CMP DIL-Octal
+D Octal Switch DIL-1
+$ENDCMP
+#
 $CMP FDS8958A
 D Dual MOS-FET
 $ENDCMP
@@ -196,6 +204,12 @@ $ENDCMP
 #
 $CMP LD1117
 D Positive Voltage Regulator
+$ENDCMP
+#
+$CMP LM1117-X
+D Linear Regulator 2V5 / 800mA
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP LM7805
@@ -230,6 +244,10 @@ $ENDCMP
 #
 $CMP LT1803S5
 D Single Op Amp 400 MHz
+$ENDCMP
+#
+$CMP LT3015-X
+D -2V5 / 1A5 Voltage Regulator
 $ENDCMP
 #
 $CMP LTC6268
@@ -290,6 +308,11 @@ $ENDCMP
 #
 $CMP Pump
 D Pump Module
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
 $ENDCMP
 #
 $CMP R4_COMMON
