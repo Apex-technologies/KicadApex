@@ -234,6 +234,16 @@ K Ampliop
 F AmpliOp.sch
 $ENDCMP
 #
+$CMP LT1371
+D Set up/step down switching regulator 35V/3A
+F regulator/lt1372-1377.pdf
+$ENDCMP
+#
+$CMP LT1373
+D Set up/step down switching regulator
+F regulator/lt1373.pdf
+$ENDCMP
+#
 $CMP LT1462
 D Dual Picoampere Bias Current OpAmp
 $ENDCMP
@@ -254,6 +264,10 @@ $CMP LT3015-X
 D -2V5 / 1A5 Voltage Regulator
 $ENDCMP
 #
+$CMP LTC1597
+D 16 bits DAC 1MHz
+$ENDCMP
+#
 $CMP LTC6268
 D Very Low Input Bias Current OpAmp
 $ENDCMP
@@ -270,8 +284,42 @@ $CMP MAX4638
 D Swicth 1x8
 $ENDCMP
 #
+$CMP MCP23016
+D I2C 16-bit I/O Expander
+$ENDCMP
+#
 $CMP MCP3321
 D ADC 1 Channel 23 kSps
+$ENDCMP
+#
+$CMP MCP3421A0T-E/CH
+D MCP346, Dual ADC 18bit
+$ENDCMP
+#
+$CMP MCP3425A1T-E/CH
+D MCP3425A1T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3425A2T-E/CH
+D MCP3425A2T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3425A3T-E/CH
+D MCP3425A3T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3426
+D ADC 16bit 15Hz 
+$ENDCMP
+#
+$CMP MCP3428
+D ADC 18bit 15Hz
 $ENDCMP
 #
 $CMP MXC6255XU
@@ -288,6 +336,10 @@ $ENDCMP
 #
 $CMP NCX1117
 D Positive Voltage Regulator
+$ENDCMP
+#
+$CMP OP544
+D Power OpAmp +/- 35V 2A
 $ENDCMP
 #
 $CMP PCF8575
@@ -384,6 +436,10 @@ $ENDCMP
 #
 $CMP TPS7A33
 D Negative Voltage Regulator (Adjustable)
+$ENDCMP
+#
+$CMP TRANSFO_LPE-5047
+D Transfo Custom Vishay
 $ENDCMP
 #
 $CMP USB
