@@ -12,6 +12,12 @@ def main(DataFile):
     # Acquisition du Root du fichier XML
     tree = ET.parse(XMLFile)
     root = tree.getroot()
+    
+    # Standard Fields
+    StdFields = ["value", "footprint", "datasheet"]
+    
+    # Extra Fields
+    XtraFields = ["package", "voltage", "power", "tolerance", "manufacturer", "p/n"]
 
     # Récupération des Tags XML dans N dictionnaires contenus dans un 1 grand dictionnaire
         
@@ -23,12 +29,11 @@ def main(DataFile):
         component["comments"] = ""
         component["tolerance"] = ""
         component["manufacturer"] = ""
-        component["manufacturer_ref"] = ""
-        component["distributor"] = ""
-        component["distributor_ref"] = ""
+        component["p/n"] = ""
         for param in comp:
-            if re.findall("value", param.tag) != []:
-                component["designation"] = param.text
+            for field in StdFields:
+                if re.findall(field, param.tag) != []:
+                    component[field] = param.text
             if re.findall("footprint", param.tag) != []:
                 try:
                     fp = param.text.split(":")[1]
@@ -36,17 +41,10 @@ def main(DataFile):
                     fp = param.text
                 component["footprint"] = fp
             if re.findall("fields", param.tag) != []:
-                for fields in param:
-                    if re.findall("voltage", fields.get("name").lower()) != []:
-                        component["comments"] = fields.text
-                    if re.findall("power", fields.get("name").lower()) != []:
-                        component["comments"] = fields.text
-                    if re.findall("tolerance", fields.get("name").lower()) != []:
-                        component["tolerance"] = fields.text
-                    if re.findall("manufacturer", fields.get("name").lower()) != []:
-                        component["manufacturer"] = fields.text
-                    if re.findall("manufacturer_ref", fields.get("name").lower()) != []:
-                        component["manufacturer_ref"] = fields.text
+                for pfield in param:
+                    for field in XtraFields:
+                        if re.findall(field, pfield.get(field).lower()) != []:
+                            component[field] = pfield.text
         Components.append(component)
 
     fcsv = open(os.path.splitext(DataFile)[0] + ".csv", mode='w')

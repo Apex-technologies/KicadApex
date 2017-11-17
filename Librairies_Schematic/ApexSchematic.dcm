@@ -58,6 +58,10 @@ $CMP 74LVC1
 D Single OR Gate
 $ENDCMP
 #
+$CMP 74LVCXG74
+D D Flip Flop 200 MHz
+$ENDCMP
+#
 $CMP 74XX14
 D 6 x Schmitt Trigger Inverser
 $ENDCMP
@@ -106,6 +110,10 @@ $CMP AD8338
 D 80dB Variable Gain Amplifier
 $ENDCMP
 #
+$CMP AD9851
+D DDS 5V 180MHz
+$ENDCMP
+#
 $CMP ADE-2+
 D RF Mixer [5MHz - 1GHz]
 $ENDCMP
@@ -143,7 +151,7 @@ D RF Buffer
 $ENDCMP
 #
 $CMP CY7C68013-56
-D Cypress FX2LP - 56 pins
+D Cypress FX2LP - 56 pins SSOP
 $ENDCMP
 #
 $CMP D
@@ -152,6 +160,10 @@ $ENDCMP
 #
 $CMP DAC8574
 D DAC Quad I2C
+$ENDCMP
+#
+$CMP DG41X
+D Quad Analog Switch
 $ENDCMP
 #
 $CMP DIL-1
@@ -342,6 +354,10 @@ $CMP OP544
 D Power OpAmp +/- 35V 2A
 $ENDCMP
 #
+$CMP Oscillator
+D Fixed Frequency Oscillator
+$ENDCMP
+#
 $CMP PCF8575
 D 16 Bits Expander I2C
 $ENDCMP
@@ -402,6 +418,14 @@ D 8 resistors Pack
 K R DEV
 $ENDCMP
 #
+$CMP Relais_IMB
+D Relais 1 Pole 220V / 2A
+$ENDCMP
+#
+$CMP Relais_OJE
+D Relais 1 Pole 30V / 10A
+$ENDCMP
+#
 $CMP Rotary_Switch
 D Rotary Switch 4 Positions
 $ENDCMP
@@ -414,6 +438,10 @@ $CMP SC1592
 D Adjustable Voltage Regulator
 $ENDCMP
 #
+$CMP SC18IS602B
+D I2C <--> SPI Bridge
+$ENDCMP
+#
 $CMP SPST
 D SPST
 $ENDCMP
@@ -424,6 +452,14 @@ $ENDCMP
 #
 $CMP TCN75A
 D I²C Temperature Sensor
+$ENDCMP
+#
+$CMP TPL222A
+D Switch Optocoupleur 2500V / 500 mA
+$ENDCMP
+#
+$CMP TPL222A-2
+D Switch Optocoupleur 2500V / 500 mA Dual
 $ENDCMP
 #
 $CMP TPS72301
