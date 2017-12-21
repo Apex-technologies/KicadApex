@@ -1,0 +1,22 @@
+(module VIS_M2 (layer F.Cu) (tedit 5A38DF4D)
+  (fp_text reference VIS_M2 (at 0 -3.5) (layer Eco1.User) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0.5 3.5) (layer Eco1.User) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -1 1) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 1 1) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 1 -1) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -1 -1) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 -1.5) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 1.5) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 1.5 0) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -1.5 0) (size 0.5 0.5) (drill 0.4) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIUSER3DMOD}/Vis_M3.wrl
+    (at (xyz 0 0 -0.063))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -338,4 +338,12 @@ F 3 "" H 19750 10750 50  0000 C CNN
 	1    19750 10750
 	1    0    0    -1  
 $EndComp
+Text GLabel 19250 7300 0    60   Input ~ 0
+TRIG_IN
+Text GLabel 20600 7300 2    60   Output ~ 0
+TRIG_OUT
+Wire Wire Line
+	20150 7300 20600 7300
+Wire Wire Line
+	19250 7300 19650 7300
 $EndSCHEMATC

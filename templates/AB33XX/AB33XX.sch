@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ApexSchematic
+LIBS:AB33XX-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535

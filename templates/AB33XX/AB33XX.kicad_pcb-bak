@@ -3,7 +3,7 @@
   (general
     (links 93)
     (no_connects 13)
-    (area 66.924999 55.924999 237.075001 156.075001)
+    (area 34.285716 19.55 237.100001 158.697)
     (thickness 1.6)
     (drawings 16)
     (tracks 0)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -847,7 +847,7 @@
   (gr_text "PAS DE COMPOSANTS DANS CETTE ZONE" (at 150.8 63.9) (layer Cmts.User)
     (effects (font (size 2 2) (thickness 0.3)))
   )
-  (gr_text "Connecter HE10 26pts pour\nraccord au fond de panier" (at 63.2 104.3 90) (layer Cmts.User)
+  (gr_text "Connecteur HE10 26pts pour\nraccord au fond de panier" (at 63.2 104.3 90) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Vis de fixation de la carte\ndans le boîtier du module" (at 151 98.7) (layer Cmts.User)
