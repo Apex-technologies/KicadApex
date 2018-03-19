@@ -36,4 +36,9 @@
   (pad 22 thru_hole circle (at 14.6 2.6) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 23 thru_hole circle (at 18.8 2.6) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 24 thru_hole circle (at 23 2.6) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (model ../../../../../../Users/Electronique/Documents/Utilitaires/KicadApex/Apex.3dshapes/MINIFIT_24.wrl
+    (at (xyz 0 0 0.2))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 90 180))
+  )
 )

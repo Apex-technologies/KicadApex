@@ -27,4 +27,9 @@
   (pad 8 thru_hole circle (at 2.54 -1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 5.08 1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at 5.08 -1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (model ../../../../../../Users/Electronique/Documents/Utilitaires/KicadApex/Apex.3dshapes/HE10_10.wrl
+    (at (xyz -0.4 -0.18 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
 )

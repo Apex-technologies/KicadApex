@@ -334,6 +334,18 @@ $CMP MCP3428
 D ADC 18bit 15Hz
 $ENDCMP
 #
+$CMP MTF_Board
+D MEMS Tunable Filter Board
+$ENDCMP
+#
+$CMP MTF_Filter
+D MEMS Tunable Optical Filter
+$ENDCMP
+#
+$CMP MT_Filter
+D MEMS Tunable Optical Filter
+$ENDCMP
+#
 $CMP MXC6255XU
 D 2Axis I2C Accelerometer
 $ENDCMP
@@ -392,6 +404,10 @@ D 4 resistors Pack with common point
 K R DEV
 $ENDCMP
 #
+$CMP RECOM-R12-XXX
+D DC/DC Boost Converter
+$ENDCMP
+#
 $CMP REF
 K POWER, PWR
 $ENDCMP
@@ -416,6 +432,10 @@ $ENDCMP
 $CMP R_PACK8
 D 8 resistors Pack
 K R DEV
+$ENDCMP
+#
+$CMP Relais_IMB
+D Relais 1 Pole 220V / 2A
 $ENDCMP
 #
 $CMP Relais_OJE
