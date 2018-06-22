@@ -31,4 +31,9 @@
   (pad 8 thru_hole circle (at 15.4 8.82) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -7.5 -9) (size 1 1) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -7.5 8) (size 1 1) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (model ../../../../../../Users/Electronique/Documents/Utilitaires/KicadApex/Apex.3dshapes/Polarimeter.wrl
+    (at (xyz -0.43 0 0))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 0 180))
+  )
 )

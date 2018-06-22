@@ -4,6 +4,10 @@ $CMP -2V5
 K POWER, PWR
 $ENDCMP
 #
+$CMP -5VB
+K POWER, PWR
+$ENDCMP
+#
 $CMP 2.048V
 K POWER, PWR
 $ENDCMP
@@ -122,6 +126,10 @@ $CMP ADG658
 D Analog Mux DMux Octal
 $ENDCMP
 #
+$CMP ADG794
+D Quad analog switch 5V
+$ENDCMP
+#
 $CMP ADL5315
 D Current Mirror 1:1 [100pA - 10 mA]
 $ENDCMP
@@ -148,6 +156,10 @@ $ENDCMP
 #
 $CMP BUF602
 D RF Buffer
+$ENDCMP
+#
+$CMP CC6-X
+D DC-DC Converter Single voltage
 $ENDCMP
 #
 $CMP CY7C68013-56
@@ -210,6 +222,10 @@ $CMP HMC241
 D Switch RF 1:4 (DC - 4GHz)
 $ENDCMP
 #
+$CMP ISL84052
+D Dual analog switch 4X1
+$ENDCMP
+#
 $CMP KA79MXX
 D Negative Voltage Regulator
 $ENDCMP
@@ -219,6 +235,10 @@ D RF Attenuator
 $ENDCMP
 #
 $CMP LD1117
+D Positive Voltage Regulator
+$ENDCMP
+#
+$CMP LD29150DTXXR
 D Positive Voltage Regulator
 $ENDCMP
 #

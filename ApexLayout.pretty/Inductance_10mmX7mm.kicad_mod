@@ -11,4 +11,9 @@
   (fp_line (start -4.5 3.5) (end -4.5 -3.5) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -4 0) (size 5 3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 5 0) (size 5 3) (layers F.Cu F.Paste F.Mask))
+  (model ../../../../../../Users/Electronique/Documents/Utilitaires/KicadApex/Apex.3dshapes/Inductance_10X7mm.wrl
+    (at (xyz -0.04 0.09 0.006))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 0 0))
+  )
 )
